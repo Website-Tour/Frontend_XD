@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+  
+  
+
+  .image{
+      display: flex;
+  }
+  
+  .icon a{
+      color: white;
+  }
+  
+  .icon a:hover{
+      color: gray;
+  }
+  
+  .form{
+      display: inline-block;
+  }
+  
+  .divider {
+      height: 95%; 
+      width: 1px;
+      background-color: black; 
+      margin: 0 auto;
+  }
+  .custom-btn {
+    border-color: white; 
+    color: black; 
+}
+
+.custom-btn:hover {
+    background-color: rgba(211, 210, 210, 0.578); 
+    color: rgb(0, 0, 0); 
+}
+  
+  .footer ul{
+      display: inline-block;
+  }
+    .card-text {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card-title {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .ui-datepicker {
+        background-color: rgb(240, 245, 247); 
+    }
+    .ui-datepicker {
+        width: 220px; 
+        font-size: 14px; 
+    }
+    
+    .ui-datepicker-calendar {
+        font-size: 14px; 
+        color: black; 
+    }
+    
+    .ui-datepicker-calendar tbody td {
+        padding: 8px;
+        color: black;
+    }
+    .ui-datepicker-calendar tbody td a{
+        color: black; 
+        text-decoration: none;
+    }
+    .pt {
+        width: 300px; 
+        height: 380px; 
+    }
+    .horizontal-line {
+        width: 150px; 
+        height: 2px; 
+        background-color: black; 
+        margin: 0 auto; 
+        margin-top: 10px;
+    }
+    .square-image {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%; 
+        object-fit: cover; 
+    }
+    .font-times-new-roman {
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    
+    </style>
+</head>
+<body>
+<div class="header">
+<script>
+        $(function(){
+            $(".header").load("../area/header_world.php");
+        });
+    </script>
+</div>
+<div class="description font-times-new-roman" style = "padding-top: 20px;margin-top: 20px; background-color:rgba(225, 223, 223, 0.578)">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-8">
+            <div class="content">
+                <h2><b>Description</b></h2>
+                <p><b>The Mekong Delta or South-western region, is 
+                    region in southwestern Vietnam where the Mekong 
+                    River approaches and empties into the sea through 
+                    a network of distributaries. The Mekong delta 
+                    region encompasses a large portion of south-western 
+                    Vietnam of over 40,500 km2. The size of the area 
+                    covered  by water depends on the season. Its wet 
+                    coastal geography makes it an important source of 
+                    agriculture and aquaculture for the country.</b></p>
+            </div>
+            <div class="row" style = "padding-top: 30px; padding-bottom: 30px">
+            <div class="col-md-4">
+                <img src="../image/vinhbacbo.jpg" alt="" class = "image img-fluid" style="max-width: 100%; height: auto; width: 400px;">
+            </div>
+            <div class="col-md-7">
+                <p><b>The delta has been occupied as early as the 4th 
+                    century BC. As a product of Khmer, Vietnamese, 
+                    Chinese, and French settlement in the region, 
+                    the delta and its waterways have numerous names, 
+                    including the Khmer term Bassac to refer to the 
+                    lower basin and the largest river branch flowing 
+                    through it. After the 1954 Geneva Conference, 
+                    Vietnam was split into two with South Vietnam 
+                    inheriting the southern half of Vietnam becoming 
+                    the State of Vietnam and eventually the Republic 
+                    of Vietnam, also known as South Vietnam, with 
+                    their own administrative states. After 1975, the 
+                    Mekong Delta ceased being a part of the Republic 
+                    of Vietnam, succeeded by the current Vietnamese 
+                    nation.</b></p>
+            </div>
+
+        </div>
+        </div>
+        <div class="col-md-4">
+            <div class="title" style="padding-bottom: 30px;">
+                <h2><b>Gallery</b></h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="../image/halongbay.jpeg" alt="." class="image img-fluid square-image" style="padding-bottom: 20px">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+</div>
+
+
+<!-- -----------------------------Explore Tour------------------------------------------ -->
+<div class="explore" style="padding-top: 20px;">
+    <div class="container">
+        <div class="content">
+            <h2 class="font-times-new-roman"><b>Explore Tour</b></h2>
+        </div>
+        <div class="row" id="tourList">
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <script>
+        $(document).ready(function(){
+            function loadTourData(page) {
+                $.ajax({
+                    url: '../api/world_api.php',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(response) {
+                        $('#tourList').html(''); 
+                        $.each(response, function(index, tour) {
+                            var duration = Math.floor((new Date(tour.thoigianve) - new Date(tour.thoigiandi)) / (1000 * 60 * 60 * 24));
+                            var card = '<div class="col-md-4">';
+                            card += '<div class="card mb-4">';
+                            card += '<div class="card" style="background-color: rgb(225, 225, 225);">';
+                            card += '<img class="card-img-top" style="width: auto; height: 250px" src="../image/' + tour.image + '" alt="">';
+                            card += '<div class="card-body">';
+                            card += '<p class="card-text">' + tour.tendiadiem + '</p>';
+                            card += '<h5 class="card-title"><b>' + tour.tentour + '</b></h5>';
+                            card += '<p class="card-text"><i class="far fa-clock"></i> ' + duration + ' days</p>';
+                            card += '<center><div class="horizontal-line"></div></center>';
+                            card += '<div class="row">';
+                            card += '<div class="col-md-4 card-text">' + tour.giatour + '$</div>';
+                            card += '<div class="col-md-8 card-text" style="padding-left: 50px"><a href="">More Information<i class="fa-solid fa-arrow-right" style="padding-left: 10px"></i></a></div>';
+                            card += '</div>';
+                            card += '</div>';
+                            card += '</div>';
+                            card += '</div>';
+        
+                            $('#tourList').append(card);
+                        });
+                        $("#footer").load("../main/footer_tour.php");
+                    }
+                });
+            }
+            loadTourData(1);
+        });
+        </script>
+        
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</body>
+</html>
